@@ -7,12 +7,12 @@ class Square():
         self.length = length
 
     def area(self):
-        return round(self.length**2)
+        return round(self.length**2, 2)
     
     def diagonal(self):
         return round(math.sqrt(2)*self.length, 2)
     
-square = Square(length=5)
-print(f"square = (length={length})")
+square = Square(length)
+print(f"square = Square(length={length})")
 print(f"{square.area()}")
 print(f"{square.diagonal()}")

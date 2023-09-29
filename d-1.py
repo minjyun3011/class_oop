@@ -1,7 +1,7 @@
 import math
 
 circle_num = int(input("半径はいくつ？: "))
-print(f"circle{circle_num} = Circle(radius={circle_num})")
+print(f"Circle{circle_num} = Circle(radius={circle_num})")
 
 class Circle():
     def __init__(self, radius):
